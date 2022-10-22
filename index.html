@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Assignment-12</title>
+</head>
+
+<body>
+  <div id="sideBar" class="sideBar">
+    <div class="sideBox">
+      <a href="#head">HOME</a>
+      <a href="#firstMain">DETAILS</a>
+      <a href="#secondMain">DURATION</a>
+      <a href="#contactForm">CONTACT</a>
+    </div>
+    <span class="open">☰ Open</span>
+  </div>
+  <section class="head" id="head">
+
+    <div class="container-fluid">
+      <div class="dimmer d-flex flex-column justify-content-center align-items-center">
+        <h1 class="text-white">Egyptian Party</h1>
+        <p class="text-white">Lets have fun</p>
+      </div>
+    </div>
+  </section>
+  <section class="firstMain" id="firstMain">
+    <div class="container text-center">
+      <h3 class="singer" id="firstSinger">ÙSinger one</h3>
+      <div class="toggle" id="firstToggle">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor
+        incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+        id
+        est laborum.</div>
+      <h3 class="singer" id="secondSinger">Singer Two</h3>
+      <div class="toggle" id="secondToggle">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+        id
+        est laborum.</div>
+      <h3 class="singer" id="thirdSinger">Singer Three</h3>
+      <div class="toggle" id="thirdToggle">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+        id
+        est laborum.</div>
+      <h3 class="singer" id="fourthSinger">Singer Four</h3>
+      <div class="toggle" id="fourthToggle">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+        id
+        est laborum.</div>
+    </div>
+  </section>
+  <section class="secondMain" id="secondMain">
+    <div class="dimmer d-flex justify-content-center align-items-center flex-wrap">
+      <div class="days box d-flex justify-content-center align-items-center" id="days"></div>
+      <div class="hours box d-flex justify-content-center align-items-center" id="hours"></div>
+      <div class="minutes box d-flex justify-content-center align-items-center" id="minutes"></div>
+      <div class="seconds box d-flex justify-content-center align-items-center" id="seconds"></div>
+    </div>
+  </section>
+  <section class="contactForm" id="contactForm">
+    <div class="container-fluid">
+      <div class="row g-3 justify-content-center">
+        <div class="col-md-5">
+          <div class="header">
+            <h2>JOIN US</h2>
+            <p class="pb-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </div>
+          <h3>CONTACT INFO</h3>
+          <p class="text-center w-100">Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer
+            adipiscing
+            elit.
+            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus</p>
+          <div class="icons">
+            <p class="text-center"><i class="fa fa-map-marker"></i> New Street 22545, Nexa Road, New York City, USA</p>
+            <p class="text-center"><i class="fa fa-envelope"></i> hello@uigrid.com</p>
+            <p class="text-center"><i class="fa fa-phone"></i> 001-000-000-000</p>
+          </div>
+          <div class="icon-social">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-twitter fa-lg"></i>
+            <i class="fa fa-google-plus fa-lg"></i>
+            <i class="fa fa-github fa-lg"></i>
+            <i class="fa fa-behance fa-lg"></i>
+            <i class="fa fa-dribbble"></i>
+          </div>
+        </div>
+
+        <div class="col-md-5 mt-5">
+          <form action="">
+            <input type="text" class="form-control input-group-lg m-4">
+            <input type="email" class="form-control input-group-lg m-4">
+            <textarea name="" id="textArea" cols="30" rows="10" class="form-control input-group-lg m-4"></textarea>
+            <p id="warning"></p>
+            <button class="submitButton btn m-4" id="warningBtn">SEND MESSAGE</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <script src="css/bootstrap.min.css"></script>
+  <script src="jquery-3.6.1.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
